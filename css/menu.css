@@ -1,0 +1,202 @@
+@font-face {
+    font-family: "Sanchez", serif;
+    src: url(/fonts/Sanchez/Sanchez-Regular.ttf) format(truetype);
+}
+body {
+margin: 0px;
+padding: 0px;
+width: 100%;
+min-height: 100%;
+display: flex;
+flex-direction: column;    
+background-color: #D9D9D9;
+}
+html {
+    height: 100%;
+}
+h1 {
+    font-family: Sanchez;
+    font-weight: 400;
+    font-size: 26px;
+    text-align: center;
+}
+.line {
+    height: 0px;
+    border: 1px solid #000000;
+    width: 100%;
+}
+.home-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 171px;
+    height: 36px;
+    font-size: 20px;
+    margin: auto auto 50px 75px;
+    background: #0A3641;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #0A3641;
+    border: 0px solid transparent;
+    transition: all 240ms ease;
+    border-radius: 50px;
+}
+.home-button:hover,
+.home-button:active {
+    background-color: black;
+    border-radius: 30px;
+}
+
+.mens-jackets {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 171px;
+    height: 36px;
+    font-size: 20px;
+    margin: -20px auto 50px 75px;
+    background: #0A3641;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #0A3641;
+    border: 0px solid transparent;
+    transition: all 240ms ease;
+    border-radius: 50px;
+}
+.mens-jackets:hover,
+.mens-jackets:active {
+    background-color: black;
+    border-radius: 30px;
+}
+
+.womens-jackets {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 171px;
+    height: 36px;
+    font-size: 20px;
+    margin: -20px auto 50px 75px;
+    background: #0A3641;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #0A3641;
+    border: 0px solid transparent;
+    transition: all 240ms ease;
+    border-radius: 50px;
+}
+.womens-jackets:hover,
+.womens-jackets:active {
+    background-color: black;
+    border-radius: 30px;
+}
+
+.contact-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 171px;
+    height: 36px;
+    font-size: 20px;
+    margin: -20px auto 50px 75px;
+    background: #0A3641;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #0A3641;
+    border: 0px solid transparent;
+    transition: all 240ms ease;
+    border-radius: 50px;
+}
+.contact-button:hover,
+.contact-button:active {
+    background-color: black;
+    border-radius: 30px;
+}
+
+.about-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 171px;
+    height: 36px;
+    font-size: 20px;
+    margin: -20px auto 50px 75px;
+    background: #0A3641;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #0A3641;
+    border: 0px solid transparent;
+    transition: all 240ms ease;
+    border-radius: 50px;
+}
+.about-button:hover,
+.about-button:active {
+    background-color: black;
+    border-radius: 30px;
+}
+
+footer {
+    height: 45px;
+    width: 100%;
+    margin-top: auto;
+    background-color: #0A3641;
+    text-align: center;
+}
+footer i {
+    margin-left: 2px;
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+}
+footer h6 {
+    margin-top: 10px;
+    font-size: 10px;
+    color: #ffffff;
+    width: auto;
+    font-weight: 400px;
+}
+
+/* These media queries is for the buttons to
+stay in center */
+@media screen and (min-width: 360px) {
+.home-button, .mens-jackets, .womens-jackets,
+.contact-button, .about-button {
+    margin-left: 30%;
+    margin-top: 10%;
+   }
+}
+
+@media screen and (min-width: 481px) {
+.home-button, .mens-jackets, .womens-jackets,
+.contact-button, .about-button {
+margin-left: 35%;
+   }
+}
+
+@media screen and (min-width: 600px) {
+.home-button, .mens-jackets, .womens-jackets,
+.contact-button, .about-button {
+margin-left: 38%;
+    }
+}
+
+@media screen and (min-width: 700px) {
+.home-button, .mens-jackets, .womens-jackets,
+.contact-button, .about-button {
+margin-left: 40%;
+    }
+}
+
+@media screen and (min-width: 880px) {
+.home-button, .mens-jackets, .womens-jackets,
+.contact-button, .about-button {
+margin-left: 42%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+.home-button, .mens-jackets, .womens-jackets,
+.contact-button, .about-button {
+margin-left: 45%;
+    }
+}

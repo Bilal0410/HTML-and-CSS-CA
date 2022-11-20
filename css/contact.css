@@ -1,0 +1,155 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+html {
+    height: 100%;
+}
+@font-face {
+    font-family: "sanchez", serif;
+    src: url(/fonts/Sanchez/Sanchez-Regular.ttf) format("truetype");
+}
+.fa-arrow-left {
+    size: 11px;
+    font-weight: 900;
+    margin: 40px auto auto 10px;
+}
+.title1 {
+    font-family: sanchez;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+.contact-img {
+    width: 231px;
+    min-height: 231px;
+    display: flex;
+    justify-content: center;
+    margin-left: 40px;
+}
+.title2 {
+    font-family: sanchez;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+p {
+    font-family: sanchez;
+    font-weight: 400;
+    font-size: 13px;
+    margin: 10px 20px auto 30px;
+}
+.contact-box {
+    width: 267px;
+    height: 40px;
+    margin: 15px auto auto 30px;
+    border: #F9FAFB;
+    border-radius: 10px;
+    background: #F9FAFB;
+}
+.message-box {
+    width: 267px;
+    height: 138px;
+    margin: 15px auto 60px 30px;
+    border: #F9FAFB;
+    border-radius: 10px;
+    background: #F9FAFB;
+    text-align: start;
+    justify-content: first baseline;
+}
+footer {
+    height: 45px;
+    width: 100%;
+    margin-top: auto;
+    background-color: #0A3641;
+    text-align: center;
+}
+footer i {
+    margin-left: 2px;
+    font-size: 18px;
+    color: #ffffff;
+}
+footer h6 {
+    margin-top: 10px;
+    margin-left: 2px;
+    color: #ffffff;
+    width: auto;
+    font-size: 12px;
+}
+
+/* These Media Queries makes everything inside
+the page look good on each of the breakpoints */
+
+@media screen and (min-width: 360px) {
+.title1 {
+    text-align: center;
+}
+.title2 {
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+.contact-img {
+    margin-left: 20%;
+}
+.contact-box, .message-box {
+align-items: center;
+display: flex;
+flex-direction: column;
+margin-left: 17%;
+}
+}
+
+@media screen and (min-width: 460px) {
+.contact-img {
+    margin-left: 25%;
+}
+.contact-box, .message-box {
+    margin-left: 22%;
+}
+}
+
+@media screen and (min-width: 560px) {
+.contact-img {
+    margin-left: 30%;
+}
+.contact-box, .message-box {
+    margin-left: 27%;
+}
+}
+
+@media screen and (min-width: 680px) {
+.contact-img {
+    margin-left: 35%;
+}
+.contact-box, .message-box {
+    margin-left: 32%;
+}
+}
+
+@media screen and (min-width: 880px) {
+.contact-img {
+    margin-left: 37%;
+}
+.contact-box, .message-box {
+    margin-left: 37%;
+}
+}
+@media screen and (min-width: 1024px) {
+.contact-img {
+    margin-left: 39%;
+}
+.contact-box, .message-box {
+    margin-left: 39%;
+}
+}
+@media screen and (min-width: 1189px) {
+.title1 {
+    margin-left: -1%;
+}
+}

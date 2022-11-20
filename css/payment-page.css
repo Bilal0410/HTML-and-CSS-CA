@@ -1,0 +1,445 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+html {
+    height: 100%;
+}
+@font-face {
+    font-family: "sanchez", serif;
+    src: url(/fonts/Sanchez/Sanchez-Regular.ttf) format("truetype");
+}
+@import url('https://fonts.googleapis.com/css2?family=Sanchez&display=swap');
+
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+}
+header {
+    height: 57px;
+    width: 100%;
+    background: linear-gradient(180deg, #4A6A72 0%, #FFFFFF 100%);
+}
+.logo {
+    width: 100px;
+    height: 53px;
+    margin-left: 85px;
+    }
+.fa-bars {
+    width: 16px;
+    height: 21px;
+    font-size: 15px;
+    color: #0A3641;
+    margin-top: 20px;
+    margin-left: 10px;
+}    
+.fa-shopping-bag {
+width: 16px;
+height: 21px;
+font-size: 15px;
+color: #0A3641;
+margin-left: 80px;
+margin-top: 20px;
+}
+.fa-arrow-left {
+    position: fixed;
+    margin: 30px auto 20px 10px;
+    font-size: 15px;
+}
+.order-title {
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 21px;
+    margin: 50px auto auto 30px;
+    color: #0A3641;
+}
+.jacket-img {
+    width: 122px;
+    height: 152px;
+    margin: 30px auto auto 30px;
+}
+.jacket-title {
+    font-family: Roboto;
+    width: 170px;
+    height: 17px;
+    margin: auto auto auto 30px;
+    font-size: 12px;
+    font-weight: 400px;
+   }
+.jacket-color {
+    font-family: Roboto;
+    width: 97px;
+    height: 29px;
+    font-weight: 400px;
+    font-size: 6px;
+    line-height: 14px;
+    margin: -5px auto auto 30px;
+   }
+   .jacket-price {
+    font-family: Roboto;
+    width: 97px;
+    height: 29px;
+    font-weight: 400px;
+    font-size: 9px;
+    line-height: 14px;
+    margin: -37px auto auto 30px;
+   }
+.line1 {
+    width: 263px;
+    height: 0px;
+    border: 1px solid #000000;
+    margin: 30px auto 40px 25px;
+}
+.payment-titles {
+    font-weight: 700px;
+    font-size: 23px;
+    margin: auto auto 20px 30px;
+    color: #0A3641;
+}
+.payment-box {
+    width: 245px;
+    height: 45px;
+    background: #F9FAFB;
+    margin: 0px auto auto 30px;
+    border-radius: 15px;
+    border: #F9FAFB;
+}
+.textbox-title {
+    margin: 50px auto auto 30px;
+    color: #9CA3AF;
+}
+.textbox-title2 {
+    margin: 50px auto auto 30px;
+    color: #9CA3AF;
+}
+.checkbox {
+    margin: auto auto auto 30px;
+    color: #9CA3AF;
+}
+
+.billing-box {
+    width: 111px;
+    height: 45px;
+    background: #F9FAFB;
+    margin: auto auto 15px 30px;
+    padding-right: 120px;
+    border-radius: 15px;
+    border: #F9FAFB;
+    text-align: left;
+}
+.billing-box2 {
+    width: 111px;
+    height: 45px;
+    background: #F9FAFB;
+    margin: auto auto 65px 30px;
+    padding-right: 120px;
+    border-radius: 15px;
+    border: #F9FAFB;
+    text-align: left;
+}
+.line2 {
+    width: 263px;
+    height: 0px;
+    border: 1px solid #000000;
+    margin: -1px auto auto 25px;
+}
+.payment-text {
+    font-weight: 700px;
+    font-size: 23px;
+    margin: 25px auto 40px 30px;
+    color: #0A3641;
+}
+.payment-methods {
+    margin: auto auto 110px 30px;
+    width: 54px;
+    height: 32px;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.payment-button {
+    position: relative;
+    margin: -70px auto 20px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 248px;
+    height: 45px;
+    font-weight: 500px;
+    border-radius: 10px;
+    padding: 7px 12px;
+    font-size: 20px;
+    background: #0A3641;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.payment-button {
+    background-color: #0A3641;
+    border: 0px solid transparent;
+    transition: all 240ms ease;
+    border-radius: 50px;
+}
+.payment-button:hover, .payment-button:active {
+    background-color: #026000;
+    border-radius: 30px;
+}
+footer {
+    height: 45px;
+    width: 100%;
+    margin-top: auto;
+    background-color: #0A3641;
+    text-align: center;
+}
+footer i {
+    margin-left: 2px;
+    font-size: 18px;
+    color: #ffffff;
+}
+footer h6 {
+    margin-top: 10px;
+    margin-left: 2px;
+    color: #ffffff;
+    width: auto;
+    font-size: 12px;
+}
+
+/* These Media Queries makes everything inside
+the page look good on each of the breakpoints */
+
+@media screen and (min-width: 330px) { 
+.logo {
+margin-left: 28%;
+}
+.fa-shopping-bag {
+margin-left: 25%;
+}
+.order-title, .jacket-img, .jacket-title, .jacket-color, .jacket-price {
+margin-left: 20%;
+}
+.line1, .line2 {
+width: 90%;
+}
+.textbox-title2 {
+display: none;
+}
+.payment-titles {
+ font-size: au;
+}
+section {
+margin-left: 10%;
+}
+.payment-text {
+margin-left: 14%;
+}
+.payment-methods {
+margin-left: 12%;
+}
+.payment-button {
+margin-left: 12%;
+}
+}
+
+@media screen and (min-width: 390px) {
+.logo {
+    margin-left: 30%;
+}
+.fa-shopping-bag {
+    margin-left: 27%;
+}
+.order-title, .jacket-img, .jacket-title, .jacket-color, .jacket-price {
+    margin-left: 20%;
+}
+.line1, .line2 {
+    width: 90%;
+}
+.textbox-title2 {
+    display: none;
+}
+.payment-titles {
+    font-size: au;
+}
+section {
+    margin-left: 10%;
+}
+.payment-text {
+    margin-left: 19%;
+}
+.payment-methods {
+    margin-left: 19%;
+}
+.payment-button {
+    margin-left: 20%;
+}
+}
+
+@media screen and (min-width: 460px) {
+    .logo {
+        margin-left: 35%;
+    }
+    .fa-shopping-bag {
+        margin-left: 30%;
+    }
+    .order-title, .jacket-img, .jacket-title, .jacket-color, .jacket-price {
+        margin-left: 20%;
+    }
+    .line1, .line2 {
+        width: 90%;
+    }
+    .textbox-title2 {
+        display: none;
+    }
+    .payment-titles {
+        font-size: au;
+    }
+    section {
+        margin-left: 10%;
+    }
+    .payment-text {
+        margin-left: 19%;
+    }
+    .payment-methods {
+        margin-left: 19%;
+    }
+    .payment-button {
+        margin-left: 20%;
+    }
+    }
+@media screen and (min-width: 515px) {
+    .logo {
+        margin-left: 35%;
+    }
+    .fa-shopping-bag {
+        margin-left: 33%;
+    }
+    .order-title, .jacket-img, .jacket-title, .jacket-color, .jacket-price {
+        margin-left: 20%;
+    }
+    .line1, .line2 {
+        width: 90%;
+    }
+    .textbox-title2 {
+        display: none;
+    }
+    .payment-titles {
+        font-size: 30px;
+    }
+    section {
+        margin-left: 10%;
+    }
+    .payment-text {
+        margin-left: 25%;
+        font-size: 30px;
+    }
+    .payment-methods {
+        margin-left: 23%;
+    }
+    .payment-button {
+        margin-left: 23%;
+    }
+}
+@media screen and (min-width: 560px) {
+.logo {
+    margin-left: 40%;
+}
+}
+
+@media screen and (min-width: 640px) {
+.logo {
+    margin-left: 40%;
+    }
+.fa-shopping-bag {
+    margin-left: 35%;
+}
+}
+
+@media screen and (min-width: 700px) {
+.logo {
+    margin-left: 43%;
+}
+.fa-shopping-bag {
+    margin-left: 35%;
+}
+.order-title, .jacket-img, .jacket-title, .jacket-color, .jacket-price {
+    margin-left: 15%;
+}
+.order-title {
+    font-size: 33px;
+}
+.line1, .line2 {
+    width: 90%;
+}
+.textbox-title2 {
+    display: none;
+}
+.payment-titles {
+    font-size: 33px;
+}
+section {
+    margin-left: 10%;
+}
+.payment-text {
+    margin-left: 33%;
+    font-size: 33px;
+}
+.payment-methods {
+    margin-left: 32%;
+}
+.payment-button {
+margin-left: 33%;
+}
+}
+
+@media screen and (min-width: 800px) {
+    .logo {
+        margin-left: 45%;
+    }
+    .fa-shopping-bag {
+        margin-left: 35%;
+    }
+    .order-title, .jacket-img, .jacket-title, .jacket-color, .jacket-price {
+        margin-left: 15%;
+    }
+    .order-title {
+        font-size: 33px;
+    }
+    .line1, .line2 {
+        width: 90%;
+    }
+    .textbox-title2 {
+        display: none;
+    }
+    .payment-titles {
+        font-size: 33px;
+    }
+    section {
+        margin-left: 10%;
+    }
+    .payment-text {
+        margin-left: 33%;
+        font-size: 33px;
+    }
+    .payment-methods {
+        margin-left: 32%;
+    }
+    .payment-button {
+    margin-left: 33%;
+    }
+    }
+
+    @media screen and (min-width: 1000px) {
+.payment-text {
+    margin-left: 40%;
+    font-size: 33px;
+}
+.payment-methods {
+    margin-left: 39%;
+}
+.payment-button {
+    margin-left: 40%;
+}
+    }
