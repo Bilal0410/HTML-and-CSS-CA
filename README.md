@@ -3,5 +3,8 @@ I started of with making a header and placing the logo for my website on center 
 
 As you can see on my “men-products.html” I have made a horizontal scrollbar to show the jackets for men and for women on “women-products.html”. I didn’t know how to make a horizontal scrollbar and found out from a video that I will link to under below. Overall it was good to get a touch with coding and getting to know a few things.
 
+horizontal scrollbar video:
+https://www.youtube.com/watch?v=3yfswsnD2sw&list=LL&index=3&t=469s
+
 Link to Figma Design:
 https://www.figma.com/file/xcRQci3cXnUOiEWMYbVPS0/Rainy-days---Course-assignment?node-id=0%3A1&t=oUBGzsEpJmiQXpFt-1
